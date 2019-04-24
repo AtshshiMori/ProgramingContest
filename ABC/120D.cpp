@@ -61,7 +61,7 @@ int main(){
             uf.unite(A[i],B[i]);
         }
     }
-
+    
     for(int i = 0; i < M; i++) {
         cout << ans[i] << endl;
     }
